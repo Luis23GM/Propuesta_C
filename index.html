@@ -2,33 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Para la mujer más bella</title>
-  <link rel="stylesheet" href="./Index_ProC/style.css">
+  <link rel="stylesheet" href="Index_ProC/style.css">
 </head>
 <body>
-  <main class="layout-grid">
-    <div class="layout-title">
-      <h1>Para la mujer más bella</h1>
-    </div>
-    <div class="layout-photos">
-      <div class="stack">
-        <div class="card">
-          <img src="Index_ProC/Img/IMG-20250610-WA0004.jpg" alt="Imagen 1" />
-        </div>
-        <div class="card">
-          <img src="Index_ProC/Img/IMG-20250701-WA0008.jpg" alt="Imagen 2" />
-        </div>
-        <div class="card">
-          <img src="Index_ProC/Img/IMG-20250711-WA0098.jpg" alt="Imagen 3" />
-        </div>
-        <div class="card">
-          <img src="Index_ProC/Img/IMG-20250711-WA0099.jpg" alt="Imagen 4" />
-        </div>
-        <!-- Puedes agregar más cards si tienes más imágenes -->
+  <main>
+    <div class="stack">
+      <div class="card">
+        <img src="Index_ProC/Img/IMG-20250610-WA0004.jpg" alt="Imagen 1" />
       </div>
+      <div class="card">
+        <img src="Index_ProC/Img/IMG-20250701-WA0008.jpg" alt="Imagen 2" />
+      </div>
+      <div class="card">
+        <img src="Index_ProC/Img/IMG-20250711-WA0098.jpg" alt="Imagen 3" />
+      </div>
+      <div class="card">
+        <img src="Index_ProC/Img/IMG-20250711-WA0099.jpg" alt="Imagen 4" />
+      </div>
+      <!-- Puedes agregar más cards si tienes más imágenes -->
     </div>
-    <div class="layout-text">
+    <div class="content">
+      <h1>Para la mujer más bella</h1>
       <p>
         Amor mío, <br>
         Cada día que pasa me doy cuenta de lo afortunado que soy por tenerte en mi vida. Eres la mujer más bella, no solo por tu apariencia, que me deja sin aliento, sino por tu bondad, tu inteligencia y tu increíble capacidad de hacer que cada día sea mejor que el anterior. Tu sonrisa ilumina mis días y tu risa es la melodía más dulce que he escuchado.
@@ -37,10 +32,11 @@
         Con todo mi amor,<br>
         @Tunovio       
       </p>
-      <button class="btn" onclick="window.location.href='PropuestaC/index.html'">Ir a PropuestaC</button>
+       <p id="P_Btn" class="btn-box">Si das click en el botón de abajo, podrás ver una sorpresa especial que he preparado para ti.</p> 
+      <button class="btn" onclick="window.location.href='../PropuestaC/index.html'">click aquí</button>
     </div>
   </main>
   <audio id="bg-music" src="VideoGames.mp3" autoplay loop hidden></audio>
-  <script src="./Index_ProC/script.js"></script>
+  <script src="Index_ProC/script.js"></script>
 </body>
 </html>
